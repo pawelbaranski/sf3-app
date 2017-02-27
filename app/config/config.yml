@@ -22,7 +22,7 @@ framework:
     templating:
         engines: ['twig']
     default_locale:  "%locale%"
-    trusted_hosts:   ~
+    trusted_hosts: ['sf3.dev']
     trusted_proxies: ~
     session:
         # http://symfony.com/doc/current/reference/configuration/framework.html#handler-id
